@@ -1,0 +1,11 @@
+Selenium\BrowserInteractions.class
+Tools\RandomValueGenerator.class
+Tools\ScennarioContext.class
+Selenium\ElementInteractions.class
+Tools\Readers\TxtReader.class
+Tools\Readers\CsvReader.class
+Tools\Screenshots.class
+Tools\PerformanceTestingTools.class
+Selenium\CoreDriver.class
+Tools\Readers\FileReaderTools.class
+Tools\ConsoleTools.class
