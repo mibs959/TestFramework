@@ -1,10 +1,11 @@
 package StepDefinitions.WikiSteps;
 
 import BasicInteractions.Pages.WikiArticlePage_BasicInteractions;
+import StepDefinitions.Support.BaseSteps;
 import cucumber.api.java.en.Then;
 import org.junit.Assert;
 
-public class WikiArticlePage_Steps {
+public class WikiArticlePage_Steps extends BaseSteps {
 
     WikiArticlePage_BasicInteractions wikiArticlePage_basicInteractions = new WikiArticlePage_BasicInteractions();
 

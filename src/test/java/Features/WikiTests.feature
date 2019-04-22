@@ -1,10 +1,8 @@
 Feature: Wikipedia Test Scenarios
 
-
   Scenario: Wikipedia title verification
     Given I navigate to 'https://www.wikipedia.org/'
     Then the current Page Title is 'Wikipedia'
-
 
   Scenario: Wikipedia Search functionality verification
     Given I navigate to 'https://www.wikipedia.org/'

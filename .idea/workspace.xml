@@ -2,27 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e562d6a-0377-47be-80c5-ed54b3de8d67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BasicInteractions/Pages/WikiArticlePage_BasicInteractions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BasicInteractions/Pages/WikiHomePage_BasicInteractions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BasicInteractions/Pages/WikiResultsPage_BasicInteractions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Locators/Pages/WikiArticlePage_Locators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Locators/Pages/WikiHomePage_Locators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Locators/Pages/WikiResultsPage_Locators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Tools/ConsoleTools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Tools/PerformanceTestingTools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Tools/RandomValueGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Tools/Readers/CsvReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Tools/Readers/FileReaderTools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Tools/Readers/TxtReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Tools/ScennarioContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Tools/Screenshots.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/Support/BaseSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/Support/BrowserStepsDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/Support/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/WikiSteps/WikiArticlePage_Steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/WikiSteps/WikiHomePage_Steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/WikiSteps/WikiResultsPage_Steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Stories/WikiTests.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BasicInteractions/Pages/TravelexHomePage_BasicInteractions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Locators/Pages/TravelexHomePage_Locators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Features/TravelexTests.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/TravelexSteps/TravelexHomePage_Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Selenium/BrowserInteractions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Selenium/BrowserInteractions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Selenium/ElementInteractions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Selenium/ElementInteractions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/Support/BaseSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/Support/BaseSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/Support/BrowserStepsDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/Support/BrowserStepsDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/WikiSteps/WikiArticlePage_Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/WikiSteps/WikiArticlePage_Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Stories/WikiTests.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/WikiTests.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Selenium/BrowserInteractions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Selenium/BrowserInteractions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Selenium/ElementInteractions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Selenium/ElementInteractions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Support/BaseSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Support/BaseSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Support/BrowserStepsDef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefinitions/Support/BrowserStepsDef.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/WikiSteps/WikiArticlePage_Steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefinitions/WikiSteps/WikiArticlePage_Steps.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,45 +30,129 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="DockManager">
+    <window id="5">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/src/main/java/Locators/Pages/TravelexHomePage_Locators.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="272">
+                    <caret line="16" column="39" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="39" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/src/main/java/BasicInteractions/Pages/TravelexHomePage_BasicInteractions.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="357">
+                    <caret line="21" column="48" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="48" />
+                    <folding>
+                      <element signature="imports" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/test/java/StepDefinitions/TravelexSteps/TravelexHomePage_Steps.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="272">
+                    <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="95" />
+                    <folding>
+                      <element signature="imports" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/src/test/java/Features/TravelexTests.feature">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="102">
+                    <caret line="6" column="64" lean-forward="true" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Stories/WikiTests.feature">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Selenium/BrowserInteractions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="52" lean-forward="true" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Locators/Pages/WikiArticlePage_Locators.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/BasicInteractions/Pages/WikiArticlePage_BasicInteractions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+            <state relative-caret-position="367">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#335#336#0" expanded="true" />
-                <element signature="e#402#403#0" expanded="true" />
+                <element signature="e#155#156#0" expanded="true" />
+                <element signature="e#196#197#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/StepDefinitions/Support/BrowserStepsDef.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#579#580#0" expanded="true" />
+                <element signature="e#657#658#0" expanded="true" />
+                <element signature="e#1057#1058#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Features/WikiTests.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Selenium/ElementInteractions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="401">
+              <caret line="90" column="41" selection-start-line="90" selection-start-column="41" selection-end-line="90" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#302#303#0" expanded="true" />
+                <element signature="e#347#348#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/StepDefinitions/WikiSteps/WikiResultsPage_Steps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="40" column="41" lean-forward="true" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/StepDefinitions/WikiSteps/WikiArticlePage_Steps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="119">
+              <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,7 +164,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/StepDefinitions/WikiSteps/WikiHomePage_Steps.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,52 +173,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/StepDefinitions/WikiSteps/WikiResultsPage_Steps.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Locators/Pages/WikiArticlePage_Locators.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="41" column="87" selection-start-line="41" selection-start-column="87" selection-end-line="41" selection-end-column="87" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/BasicInteractions/Pages/WikiHomePage_BasicInteractions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="82" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#329#330#0" expanded="true" />
-                <element signature="e#404#405#0" expanded="true" />
-                <element signature="e#444#445#0" expanded="true" />
-                <element signature="e#509#510#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Locators/Pages/WikiResultsPage_Locators.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="9" selection-end-column="77" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/StepDefinitions/Support/BrowserStepsDef.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#579#580#0" expanded="true" />
-                <element signature="e#657#658#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="8" selection-end-column="80" />
             </state>
           </provider>
         </entry>
@@ -178,7 +215,6 @@
         <option value="$PROJECT_DIR$/src/test/java/StepDefinitions/Hooks.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Locators/Pages/WikiHomePage_Locators.kt" />
         <option value="$PROJECT_DIR$/src/main/java/Locators/Pages/WikiHomePage_Locators.kt" />
-        <option value="$PROJECT_DIR$/src/main/java/Selenium/BrowserInteractions.java" />
         <option value="$PROJECT_DIR$/src/test/java/StepDefinitions/HomePage/WikiHomePage_Steps.java" />
         <option value="$PROJECT_DIR$/src/main/java/BasicInteractions/Pages/WikiHomePage_BasicInteractions.java" />
         <option value="$PROJECT_DIR$/src/test/java/StepDefinitions/WikiHomePage_Steps.java" />
@@ -187,21 +223,27 @@
         <option value="$PROJECT_DIR$/src/test/java/StepDefinitions/WikiSteps/WikiHomePage_Steps.java" />
         <option value="$PROJECT_DIR$/src/test/java/StepDefinitions/SupportSteps/BaseSteps.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/StepDefinitions/Support/BrowserStepsDef.java" />
         <option value="$PROJECT_DIR$/src/test/java/StepDefinitions/Support/Hooks.java" />
         <option value="$PROJECT_DIR$/src/main/java/Selenium/CoreDriver.java" />
         <option value="$PROJECT_DIR$/src/main/java/Locators/Pages/WikiHomePage_Locators.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Selenium/ElementInteractions.java" />
         <option value="$PROJECT_DIR$/src/test/java/StepDefinitions/Support/BaseSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/Stories/Test.feature" />
         <option value="$PROJECT_DIR$/src/test/java/Stories/Test2.feature" />
         <option value="$PROJECT_DIR$/src/main/java/Locators/Pages/WikiResultsPage_Locators.java" />
         <option value="$PROJECT_DIR$/src/main/java/BasicInteractions/Pages/WikiResultsPage_BasicInteractions.java" />
         <option value="$PROJECT_DIR$/src/test/java/StepDefinitions/WikiSteps/WikiResultsPage_Steps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Stories/WikiTests.feature" />
         <option value="$PROJECT_DIR$/src/main/java/Locators/Pages/WikiArticlePage_Locators.java" />
         <option value="$PROJECT_DIR$/src/main/java/BasicInteractions/Pages/WikiArticlePage_BasicInteractions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Stories/WikiTests.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/Features/WikiTests.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/Selenium/BrowserInteractions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Selenium/ElementInteractions.java" />
         <option value="$PROJECT_DIR$/src/test/java/StepDefinitions/WikiSteps/WikiArticlePage_Steps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Features/TravelexTests.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/StepDefinitions/Support/BrowserStepsDef.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Locators/Pages/TravelexHomePage_Locators.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BasicInteractions/Pages/TravelexHomePage_BasicInteractions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/StepDefinitions/TravelexSteps/TravelexHomePage_Steps.java" />
       </list>
     </option>
   </component>
@@ -312,6 +354,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Features" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestFramework_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="StepDefinitions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -332,14 +382,6 @@
               <item name="StepDefinitions" type="462c0819:PsiDirectoryNode" />
               <item name="WikiSteps" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="TestFramework_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Stories" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -349,6 +391,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/Interactions of Interactions" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -380,15 +423,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Feature: WikiTests">
-    <configuration name="Feature: Test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Stories/Test.feature" />
-      <option name="GLUE" value="StepDefinitions.SupportSteps" />
+  <component name="RunManager" selected="Cucumber java.Feature: TravelexTests">
+    <configuration name="Feature: Test2" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Stories/Test2.feature" />
+      <option name="GLUE" value="StepDefinitions.Support" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="TestFramework_Project" />
-      <option name="PROGRAM_PARAMETERS" value="--monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: Test" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: Test2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -399,14 +442,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: Test2" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: TravelexTests" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Stories/Test2.feature" />
-      <option name="GLUE" value="StepDefinitions.Support" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/TravelexTests.feature" />
+      <option name="GLUE" value="StepDefinitions.Support StepDefinitions.TravelexSteps" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="TestFramework_Project" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: Test2" />
+      <option name="SUGGESTED_NAME" value="Feature: TravelexTests" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -474,19 +517,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Cucumber java.Feature: Test" />
       <item itemvalue="Cucumber java.Feature: Test2" />
       <item itemvalue="Cucumber java.Scenario: Wikipedia title verification" />
       <item itemvalue="Cucumber java.Scenario: Wikipedia Search functionality verification (1)" />
       <item itemvalue="Cucumber java.Feature: WikiTests" />
+      <item itemvalue="Cucumber java.Feature: TravelexTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Feature: TravelexTests" />
         <item itemvalue="Cucumber java.Feature: WikiTests" />
         <item itemvalue="Cucumber java.Scenario: Wikipedia Search functionality verification (1)" />
         <item itemvalue="Cucumber java.Scenario: Wikipedia title verification" />
         <item itemvalue="Cucumber java.Feature: Test2" />
-        <item itemvalue="Cucumber java.Feature: Test" />
       </list>
     </recent_temporary>
   </component>
@@ -504,35 +547,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__Test - 2019.04.21 at 13h 28m 48s.xml">
-      <configuration name="Feature: Test" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__Test - 2019.04.21 at 13h 29m 00s.xml">
-      <configuration name="Feature: Test" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Wikipedia_Search_functionality_verification - 2019.04.21 at 13h 29m 28s.xml">
-      <configuration name="Scenario: Wikipedia Search functionality verification" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__Test - 2019.04.21 at 13h 49m 03s.xml">
-      <configuration name="Feature: Test" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__Test2 - 2019.04.21 at 13h 50m 15s.xml">
-      <configuration name="Feature: Test2" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Wikipedia_title_verification - 2019.04.21 at 13h 50m 36s.xml">
-      <configuration name="Scenario: Wikipedia title verification" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Wikipedia_Search_functionality_verification_(1) - 2019.04.21 at 13h 50m 52s.xml">
-      <configuration name="Scenario: Wikipedia Search functionality verification (1)" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__WikiTests - 2019.04.21 at 13h 51m 51s.xml">
-      <configuration name="Feature: WikiTests" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
     <history-entry file="Feature__WikiTests - 2019.04.21 at 14h 06m 39s.xml">
       <configuration name="Feature: WikiTests" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
     <history-entry file="Feature__WikiTests - 2019.04.21 at 14h 07m 21s.xml">
       <configuration name="Feature: WikiTests" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__WikiTests - 2019.04.21 at 14h 22m 29s.xml">
+      <configuration name="Feature: WikiTests" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__WikiTests - 2019.04.21 at 14h 23m 49s.xml">
+      <configuration name="Feature: WikiTests" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__TravelexTests - 2019.04.22 at 06h 35m 14s.xml">
+      <configuration name="Feature: TravelexTests" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__TravelexTests - 2019.04.22 at 06h 37m 51s.xml">
+      <configuration name="Feature: TravelexTests" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__TravelexTests - 2019.04.22 at 07h 11m 48s.xml">
+      <configuration name="Feature: TravelexTests" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__TravelexTests - 2019.04.22 at 07h 12m 23s.xml">
+      <configuration name="Feature: TravelexTests" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__TravelexTests - 2019.04.22 at 07h 15m 32s.xml">
+      <configuration name="Feature: TravelexTests" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__TravelexTests - 2019.04.22 at 07h 16m 29s.xml">
+      <configuration name="Feature: TravelexTests" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -605,6 +648,28 @@
     </layout-to-restore>
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/BasicInteractions/Pages/WikiArticlePage_BasicInteractions.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/StepDefinitions/Support/BrowserStepsDef.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/BasicInteractions/Pages/TravelexHomePage_BasicInteractions.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="CucumberJavaRunConfigurationType">
         <watch expression="wikiResultsPage_basicInteractions.GetSuggestedSearchText()" language="JAVA" />
@@ -708,13 +773,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/4.2.6/cucumber-core-4.2.6.jar!/cucumber/runtime/Utils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Locators/Pages/WikiHomePage_Locators.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -769,24 +827,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Selenium/ElementInteractions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#450#451#0" expanded="true" />
-            <element signature="e#893#894#0" expanded="true" />
-            <element signature="e#940#941#0" expanded="true" />
-            <element signature="e#1125#1126#0" expanded="true" />
-            <element signature="e#1162#1163#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Locators/Pages/WikiHomePage_Locators.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -807,29 +847,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/StepDefinitions/Support/BrowserStepsDef.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#657#658#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Stories/Test.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="14" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Stories/WikiTests.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="52" lean-forward="true" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -839,17 +860,6 @@
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Selenium/BrowserInteractions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#155#156#0" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -874,7 +884,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BasicInteractions/Pages/WikiHomePage_BasicInteractions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
+        <state relative-caret-position="119">
           <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="82" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -886,37 +896,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/StepDefinitions/WikiSteps/WikiResultsPage_Steps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="41" column="87" selection-start-line="41" selection-start-column="87" selection-end-line="41" selection-end-column="87" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Locators/Pages/WikiArticlePage_Locators.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/StepDefinitions/WikiSteps/WikiHomePage_Steps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BasicInteractions/Pages/WikiArticlePage_BasicInteractions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        <state relative-caret-position="255">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#335#336#0" expanded="true" />
@@ -925,10 +908,122 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/StepDefinitions/WikiSteps/WikiHomePage_Steps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/StepDefinitions/WikiSteps/WikiArticlePage_Steps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="119">
+          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Locators/Pages/WikiArticlePage_Locators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="8" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Selenium/ElementInteractions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="90" column="41" selection-start-line="90" selection-start-column="41" selection-end-line="90" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Selenium/BrowserInteractions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Features/WikiTests.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/StepDefinitions/WikiSteps/WikiResultsPage_Steps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="40" column="41" lean-forward="true" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/4.2.6/cucumber-core-4.2.6.jar!/cucumber/runtime/Utils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/StepDefinitions/Support/BrowserStepsDef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#1057#1058#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Features/TravelexTests.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="64" lean-forward="true" selection-start-line="6" selection-start-column="64" selection-end-line="6" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Locators/Pages/TravelexHomePage_Locators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BasicInteractions/Pages/TravelexHomePage_BasicInteractions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="48" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/StepDefinitions/TravelexSteps/TravelexHomePage_Steps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="95" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -1,6 +1,11 @@
 package Selenium;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.interactions.Action;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.remote.server.handler.FindElement;
 
 public class BrowserInteractions extends CoreDriver {
 
@@ -10,6 +15,11 @@ public class BrowserInteractions extends CoreDriver {
 
     public void MaximizeWindow() {
         driver.manage().window().maximize();
+    }
+
+    public void ResizeWindow (int width, int height){
+        Dimension dimension = new Dimension(width, height);
+        driver.manage().window().setSize(dimension);
     }
 
     public void CloseWindowOrTab() {
@@ -32,7 +42,7 @@ public class BrowserInteractions extends CoreDriver {
         return driver.getTitle();
     }
 
-
+    // Mobile Interaction Emulations
 
 
 }

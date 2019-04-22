@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.ElementNotVisibleException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Action;
+import org.openqa.selenium.interactions.Actions;
 
 import java.util.List;
 
@@ -66,6 +68,30 @@ public class ElementInteractions extends CoreDriver {
         }catch (ElementNotVisibleException e){
             return false;
         }
+    }
+
+    // Mobile Emulation Methods
+
+    public void Swipe(By elementToMove, By elementToMoveTo) {
+        Actions builder = new Actions(driver);
+
+        Action dragAndDrop = builder.clickAndHold(FindElement(elementToMove))
+                .moveToElement(FindElement(elementToMoveTo))
+                .release(FindElement(elementToMoveTo))
+                .build();
+
+        dragAndDrop.perform();
+    }
+
+    public void Swipe(WebElement elementToMove, WebElement elementToMoveTo) {
+        Actions builder = new Actions(driver);
+
+        Action dragAndDrop = builder.clickAndHold(elementToMove)
+                .moveToElement(elementToMoveTo)
+                .release(elementToMoveTo)
+                .build();
+
+        dragAndDrop.perform();
     }
 
 }
