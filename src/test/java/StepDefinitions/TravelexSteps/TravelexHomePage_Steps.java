@@ -1,7 +1,7 @@
 package StepDefinitions.TravelexSteps;
 
-import BasicInteractions.Pages.TravelexHomePage_BasicInteractions;
 import StepDefinitions.Support.BaseSteps;
+import Travelex_Page.BasicInteractions.Pages.TravelexHomePage_BasicInteractions;
 import cucumber.api.java.en.Then;
 import org.junit.Assert;
 

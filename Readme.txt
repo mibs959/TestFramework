@@ -37,7 +37,10 @@ Future Plans for the Framework...
 
 Here are some of my future plans for the Framework:
 
-- Have it better structured for multiple - different tests from different sites (all in one). 
+- Add documentation to every Method / Step - This can be really handy when it comes to others reading the code in order to fully
+											 understand what the method does.
+											 
+- Have it better structured for multiple - different tests from different sites (all in one). 											- DONE
 
 	Note: Bare in mind that this framework is for Tests proposed from companies to see if I can create 
 		  Automated Test Cases with Java, Selenium and Cucumber, not for a specific page/project.
@@ -52,7 +55,7 @@ Here are some of my future plans for the Framework:
 
 - Support for File Reading - Some test could make use of heavy and long CSV files where a LOT of Arguments / Test Scennarios can
 							 be and run from.
-							 
+				
 - Property Reader - Can be quite handy, but this would be one of the latest things that I would do since as I mentioned before
 					this is not a single project focused Framework and this would make more sense for having different properties
 					for different Environments such as Local, Dev, QA, Pre-Production, etc.

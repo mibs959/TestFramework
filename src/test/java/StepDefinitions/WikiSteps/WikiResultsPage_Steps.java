@@ -1,6 +1,6 @@
 package StepDefinitions.WikiSteps;
 
-import BasicInteractions.Pages.WikiResultsPage_BasicInteractions;
+import Wikipedia_Page.BasicInteractions.Pages.WikiResultsPage_BasicInteractions;
 import StepDefinitions.Support.BaseSteps;
 import cucumber.api.java.en.Then;
 import org.junit.Assert;

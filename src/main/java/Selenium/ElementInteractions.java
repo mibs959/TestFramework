@@ -1,8 +1,10 @@
 package Selenium;
 
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.ElementNotVisibleException;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
@@ -27,8 +29,12 @@ public class ElementInteractions extends CoreDriver {
         FindElement(by).click();
     }
 
-    public void WriteOnElement(WebElement element){
+    public void WriteOnElement(WebElement element, String text){
+        element.sendKeys(text);
+    }
 
+    public void WriteOnElement(By by, String text){
+        FindElement(by).sendKeys(text);
     }
 
     public String GetElementText(WebElement element){
@@ -51,10 +57,20 @@ public class ElementInteractions extends CoreDriver {
         return FindWebelements(by).size();
     }
 
+    public void SelectElementFromDropdownByName (By by, String name){
+        Select dropdown = new Select(FindElement(by));
+        dropdown.selectByVisibleText(name);
+    }
+
+    public String GetSelectedValueAtGivenDropdown (By by){
+        Select dropdown = new Select(FindElement(by));
+        return GetElementText(dropdown.getFirstSelectedOption());
+    }
+
 
     // Assertions:
 
-    public boolean isGivenElementDisplayed(WebElement element){
+    public boolean IsGivenElementDisplayed(WebElement element){
         try {
             return element.isDisplayed();
         }catch (ElementNotVisibleException e){
@@ -62,7 +78,7 @@ public class ElementInteractions extends CoreDriver {
         }
     }
 
-    public boolean isGivenElementDisplayed(By by){
+    public boolean IsGivenElementDisplayed(By by){
         try {
             return FindElement(by).isDisplayed();
         }catch (ElementNotVisibleException e){

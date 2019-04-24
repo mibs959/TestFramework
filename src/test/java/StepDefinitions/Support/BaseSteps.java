@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 
-@CucumberOptions(features = "Features", glue = {"StepDefinitions.Support", "StepDefinitions.WikiSteps"})
+@CucumberOptions(features = "Features", glue = {"StepDefinitions.Support", "StepDefinitions.WikiSteps", "StepDefinitions.TravelexSteps", "StepDefinitions.WorldremitSteps"})
 public class BaseSteps extends CoreDriver {
 
 

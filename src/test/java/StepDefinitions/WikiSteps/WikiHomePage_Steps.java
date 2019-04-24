@@ -1,6 +1,6 @@
 package StepDefinitions.WikiSteps;
 
-import BasicInteractions.Pages.WikiHomePage_BasicInteractions;
+import Wikipedia_Page.BasicInteractions.Pages.WikiHomePage_BasicInteractions;
 import StepDefinitions.Support.BaseSteps;
 import Tools.ScennarioContext;
 import cucumber.api.java.en.When;

@@ -1,2 +1,7 @@
-C:\Users\cavallero\Documents\GitHub Projects\TestFramework\src\test\java\StepDefinitions\SupportSteps\BrowserStepsDef.java
-C:\Users\cavallero\Documents\GitHub Projects\TestFramework\src\test\java\Hooks.java
+C:\Users\cavallero\Documents\GitHub Projects\TestFramework\src\test\java\StepDefinitions\WikiSteps\WikiResultsPage_Steps.java
+C:\Users\cavallero\Documents\GitHub Projects\TestFramework\src\test\java\StepDefinitions\Support\Hooks.java
+C:\Users\cavallero\Documents\GitHub Projects\TestFramework\src\test\java\StepDefinitions\WikiSteps\WikiArticlePage_Steps.java
+C:\Users\cavallero\Documents\GitHub Projects\TestFramework\src\test\java\StepDefinitions\TravelexSteps\TravelexHomePage_Steps.java
+C:\Users\cavallero\Documents\GitHub Projects\TestFramework\src\test\java\StepDefinitions\Support\BaseSteps.java
+C:\Users\cavallero\Documents\GitHub Projects\TestFramework\src\test\java\StepDefinitions\Support\BrowserStepsDef.java
+C:\Users\cavallero\Documents\GitHub Projects\TestFramework\src\test\java\StepDefinitions\WikiSteps\WikiHomePage_Steps.java
