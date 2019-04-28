@@ -7,7 +7,7 @@ import cucumber.api.java.en.When;
 import org.junit.Assert;
 
 
-public class BrowserStepsDef extends BaseSteps {
+public class BrowserSteps extends BaseSteps {
 
     BrowserInteractions browserInteractions = new BrowserInteractions();
 

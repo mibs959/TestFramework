@@ -10,6 +10,14 @@
 
     <dependencies>
 
+        <!--   API Testing     -->
+
+        <dependency>
+            <groupId>com.googlecode.json-simple</groupId>
+            <artifactId>json-simple</artifactId>
+            <version>RELEASE</version>
+        </dependency>
+
         <!--   Selenium   -->
 
         <dependency>
@@ -82,6 +90,9 @@
             <version>RELEASE</version>
             <scope>test</scope>
         </dependency>
+
+
+
 
         <!--   Other Tools     -->
 
