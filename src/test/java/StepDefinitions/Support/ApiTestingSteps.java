@@ -26,6 +26,7 @@ public class ApiTestingSteps extends ApiRequestsMethods {
         ScennarioContext.saveData("GetJsonObject", GetMethod(url));
     }
 
+    // TODO: Move this step to William Hill Steps once they are working.
     @Then("The GET Performed returned '{int}' Events")
     public void VerifyAmountOfEventsReturned (int numberOfEvents){
         JSONObject jsonObject = (JSONObject) ScennarioContext.getData("GetJsonObject");
@@ -34,6 +35,7 @@ public class ApiTestingSteps extends ApiRequestsMethods {
     }
 
     /**
+     * TODO: Move this step to William Hill Steps once they are working.
      * TODO: Ways to implement a better solution: Create a Event Type of Object to parse the JSON.
      * @param event
      */
@@ -61,6 +63,7 @@ public class ApiTestingSteps extends ApiRequestsMethods {
 
 
 
+    // TODO: Move this step to William Hill Steps once they are working.
     @Then("Add a new Random Market Selection")
     public void AddSelection() throws IOException {
 
