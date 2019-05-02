@@ -1,0 +1,318 @@
+Task Part 1
+
+Answer to the Questions:
+
+	A - Using the database and the GUI, how would you test the functionality of this form?
+	
+		So, we will have a LOT of Test to cover at least the most critical parts of the application, still I will devide it in different parts to 
+		have them Tested individually first and then do an Integration Testing among all the different "actors" -or parts- on the Application.
+		
+		UI - Mainly Frontend
+		====================
+		
+		Use Cases:
+		==========
+		
+			Title: Including Commission
+			============================================
+			1 - User sets a valid Base Currency
+			2 - Then set a Target Currency
+			3 - Set the amount to be Converted
+			4 - Set to Include the Commission in the calculation
+			5 - Press the Convert button
+			
+			Expected result: The currency convertion is correct and the Commission is included on it.
+			
+			
+			Title: Excluding Commission
+			============================================
+			1 - User sets a valid Base Currency
+			2 - Then set a Target Currency
+			3 - Set the amount to be Converted
+			4 - Doesnt Include the Commission in the calculation
+			5 - Press the Convert button
+			
+			Expected result: The currency convertion is correct and the Commission is not included on it.
+			
+			
+			Title: Adding a number with comma on the Amount to be converted
+			=================================================================
+			1 - User sets a valid Base Currency
+			2 - Then set a Target Currency
+			3 - Set the amount to be Converted as "25,45"
+			4 - Doesnt Include the Commission in the calculation
+			5 - Press the Convert button
+			
+			Expected result: The currency convertion should be normally performed.
+			
+			
+			Title: Close the Currency Converter
+			=====================================================
+			1 - User press the Close button
+			
+			Expected result: The currency convertion app should be closed.
+			
+			
+		Test Cases:
+		===========
+		
+			Title: Not setting the Base Currency 
+			============================================
+			1 - User sets a Target Currency
+			2 - Set the amount to be Converted
+			3 - Set to Include the Commission in the calculation
+			4 - Press the Convert button
+			
+			Expected result: The currency convertion is not performed and will return a N/A since the Base Currency is not set.
+			
+			
+			Title: Not setting the Target Currency 
+			============================================
+			1 - User sets a valid Base Currency
+			2 - Set the amount to be Converted
+			3 - Doesnt Include the Commission in the calculation
+			4 - Press the Convert button
+			
+			Expected result: The currency convertion is not performed and will return a N/A since the Target Currency is not set.
+			
+			
+			Title: Setting the Same currency as Base and Target
+			======================================================
+			1 - User sets the same currency for Base and Target
+			2 - Set the amount to be Converted
+			3 - Doesnt Include the Commission in the calculation
+			4 - Press the Convert button
+			
+			Expected result: The currency convertion should display the same amount set as the amount to be converted (?).
+			
+			
+			Title: Non of the Currencies are set
+			============================================
+			1 - Set the amount to be Converted
+			2 - Doesnt Include the Commission in the calculation
+			3 - Press the Convert button
+			
+			Expected result: The currency convertion is not performed and will return a N/A since the Target and Base Currencies are not set.
+			
+			
+			Title: Set as Amount to Convert a String
+			============================================
+			1 - User sets a valid Base Currency
+			2 - Then set a Target Currency
+			3 - Set "Hello" as Amount to convert
+			4 - Doesnt Include the Commission in the calculation
+			5 - Press the Convert button
+			
+			Expected result: The currency convertion is not performed and will return a N/A since the Amount to convert is an invalid input.
+			
+			
+			Title: Set as Amount to Convert special Characters
+			==================================================
+			1 - User sets a valid Base Currency
+			2 - Then set a Target Currency
+			3 - Set "!@#$%^&*" as Amount to convert
+			4 - Doesnt Include the Commission in the calculation
+			5 - Press the Convert button
+			
+			Expected result: The currency convertion is not performed and will return a N/A since the Amount to convert is an invalid input.
+			
+			
+			Title: Set as Amount to Convert a ridiculous amount to convert - Testing the boundaries
+			===========================================================================================
+			1 - User sets a valid Base Currency
+			2 - Then set a Target Currency
+			3 - Set "9999999999999999999999999999999999999999999999999999999999999" as Amount to convert
+			4 - Doesnt Include the Commission in the calculation
+			5 - Press the Convert button
+			
+			Expected result: Honestly, I have no idea what could happen in this case, as no limit is set on the input, it should work, HOWEVER, if the input was set to INT, this will then fail as it would require a different type of input that can hold this kinds of inputs.
+			
+			
+			Title: Not setting up any Amount to convert
+			==================================================
+			1 - User sets a valid Base Currency
+			2 - Then set a Target Currency
+			3 - Set "" as Amount to convert
+			4 - Doesnt Include the Commission in the calculation
+			5 - Press the Convert button
+			
+			Expected result: The currency convertion is not performed and will return a N/A since the Amount to convert is null.
+			
+			
+			Title: Leaving everything empty
+			==================================================
+			1 - User leaves empty the Base Currency
+			2 - Then leaves empty the Target Currency
+			3 - Set "" as Amount to convert
+			4 - Doesnt Include the Commission in the calculation
+			5 - Press the Convert button
+			
+			Expected result: The currency convertion is not performed and will return a N/A since the all the fields are empty.
+			
+			
+		UI - Maintain Currencies
+		========================
+		
+			Use Cases:
+			==========
+			
+			
+			Title: Adding a new Currency
+			==================================================
+			1 - User Adds a new Currency
+			2 - Then User performs a new and valid currency exchange with this currency as the Target one
+			
+			Expected result: The currency convertion is should be successfully performed.
+			
+			
+			Title: Editing a Currency
+			==================================================
+			1 - User Edits a Currency
+			2 - Then User performs a new and valid currency exchange with this currency as the Target one
+			
+			Expected result: The currency convertion is should be successfully performed.
+			
+			
+			Title: Deleting a Currency
+			==================================================
+			1 - User Deletes a Currency
+			2 - Then User tries to select as Base or Target this currency.
+			
+			Expected result: The currency deleted is not shown anymore.
+			
+			
+			Title: Start the Process
+			==================================================
+			1 - User Adds a new Currency
+			2 - Starts the process
+			3 - This one is displayed on the Application
+			
+			Expected result: The new currency is displayed on the System.
+			
+			
+			Title: Stop the Process
+			==================================================
+			1 - User Stops the Process
+			2 - User adds a new Currency
+			3 - This one is not displayed on the Application
+			
+			Expected result: The new currency is not displayed on the System.
+			
+			
+			
+		UI - Maintain Commission Rates
+		=============================
+		
+			Note: On these Tests the main Strategy - on most of them - will be to apply the Boundary Testing Techniques to Test the output values testing before, at and after the limits set.
+		
+			Use Cases:
+			==========
+			
+			Title: User set the Minium Commission Value
+			==================================================
+			1 - User Set the minimum Commission Value to '10'
+			2 - Then performs a Currency Exchange with the commission set
+			3 - The value of the conversion is the conversion itself plus the commission previously set.
+			
+			Expected result: The new minimum commission is reflected on the Conversion.
+			
+			
+			Title: User set the a Range of Commission Values - Test 1
+			==========================================================
+			1 - User set a range between 10 to 100 the Commission to be 5%
+			2 - Then performs a Currency Exchange of 10 with the commission set
+			3 - The value of the conversion is the conversion itself plus the commision previously set.
+			
+			Expected result: The new commission is reflected on the Conversion.
+			
+			
+			Title: User set the a Range of Commission Values - Test 2
+			==========================================================
+			1 - User set a range between 10 to 100 the Commission to be 5%
+			2 - Then performs a Currency Exchange of 50 with the commission set
+			3 - The value of the conversion is the conversion itself plus the commision previously set.
+			
+			Expected result: The new commission is reflected on the Conversion.
+			
+			
+			Title: User set the a Range of Commission Values - Test 3
+			==========================================================
+			1 - User set a range between 10 to 100 the Commission to be 5%
+			2 - Then performs a Currency Exchange of 100 with the commission set
+			3 - The value of the conversion is the conversion itself plus the commision previously set.
+			
+			Expected result: The new commission is reflected on the Conversion.
+
+			
+			Test Cases:
+			===========
+			
+			Title: User set an invalid Minium Commission Value
+			==================================================
+			1 - User Set the minimum Commision Value to '9'
+			2 - Then performs a Currency Exchange with the commission set
+			3 - The value of the conversion is the conversion itself plus the minimum 10.
+			
+			Expected result: Actually I dont have much Idea as what would happen on this scennario, as its not described on the Documentation, however it should be specified among the Tests to be performed.
+			
+			
+			Title: User set the a Range of Commission Values - Test 4
+			==========================================================
+			1 - User set a range between 10 to 100 the Commission to be 5%
+			2 - Then performs a Currency Exchange of 9 with the commission set
+			3 - The value of the conversion is the conversion itself plus the MINIMUM commision set.
+			
+			Expected result: The new commission is not being reflected on the Conversion.
+			
+			
+			Title: User set the a Range of Commission Values - Test 5
+			==========================================================
+			1 - User set a range between 10 to 100 the Commission to be 5%
+			2 - Then performs a Currency Exchange of 101 with the commission set
+			3 - The value of the conversion is the conversion itself plus the commision set.
+			
+			Expected result: What would happen on this scennario? When its only defined a minimum, a range between the minimum and X, but when surpassing the X what should happen?
+			
+			
+			
+		Accessibility Testing:
+		======================
+		
+			Tests:
+			======
+			
+				- Verify if the application can be used by someone who is blind by verifiying that the Application can tell in an auditive way to the user what is going on.
+				- Verify if the application can be used by someone who is Color blind by verifiying that all the fields and elements are being clearly defined and seen.
+				
+			
+		
+		If you were automating the testing of this form for regression test purposes, what would you hope the developer had done that would make the automation easier?
+		===============================================================================================================================================================
+		
+			Answer: Locators. Give the WebElements IDs or Names at least. We can still work with CSS and XPaths, but for example, working with XPaths should be the very last resource
+			as when using it, it takes longer to find the WebElement.
+			
+		If this application were used internationally, what further tests would you perform?
+		====================================================================================
+
+			Answer: We should be testing the Translations on the Application, since this is a KEY factor when having an application that will be used around the world.
+			
+			
+		Looking at the screenshot of the form above, what user interface issues are immediately apparent (you may have mentioned some of these in previous answers)?
+		=============================================================================================================================================================
+		
+			Answer: Well to be honest here are some - in my opinion - :
+			
+							- Unecesary Close button and the Exit at the toolbar
+							- Which are the Mandatory fields - not specified on the UI
+							- IT COULD be an issue in the case of Resizing the Window if the application is not responsive or if it doesnt display horizontal and verical scrolls
+							- The Elements could be placed in a more friendly user way, e.g.: The Target Currency could be next to the Base currency
+							- It could be nice to have some key-shortcuts for some of the options
+							- The input at the Amount could be a MaskedTextbox defining the input format
+			
+				
+			
+			
+			
+			
+			
